@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+#root {
+  margin: 0;
+  font-family: "Roboto", monospace;
+}
+.button-leave{
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  padding-left: 40px;
+  background: linear-gradient(to right, rgb(245, 163, 73), rgb(244, 95, 127) );
+  font-size: large;
+  box-shadow: 8px 10px 10px 1px rgba(0,0,0,0.2);
+}
+.background-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 3px gray solid;
+  padding: 10px 3px 10px 3px;
+  margin-bottom: 80px;
+}
+.logo {
+  height: 150px;
+  padding: 5px 5px;
+  margin-right: .7rem;
+}
+.background-logo:hover {
+  box-shadow: 0 0 2em orange;
+  border-color: orange;
+}
+.header {
+  color: #888;
+  font-size: larger;
+}
+.parent1 {
+  background: url("./assets/header.png");
+  background-size: cover;
+  background-position-x: 100px;
+  background-position-y: -50px;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+}
+.header-div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-div p {
+  color: white;
+  font-size: larger;
+}
+.parent2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  width: 100%;
+  align-self: flex-end;
+}
+.date{
+  margin: 0;
+  padding-top: 30px;
+}
+.time {
+  font-size: 50px;
+  margin-top: -7%;
+  margin-bottom: 1rem;
+}
+.office{
+  font-size: 30px;
+  margin: 0;
+  color: #1177af;
+}
+.child2 {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  align-items: center;
+}
+.parent3 {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.section1{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 500px; 
+}
+.section1 button{
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid rgb(211, 210, 210);
+  color: rgb(211, 210, 210);;
+}
+.section1 button:hover {
+  border-color: #646cff;
+  color: #646cff;
+}
+.section2{
+  width: 50%;
+}
+.section3{
+  width: 22%;
+  padding: 0px 25px;
+}
+
+.section3 h1 {
+  color: #1177af;
+  font-size: medium;
+  border-bottom: 2px dashed #888;
+  padding-bottom: 1rem;
+}
+.section3 p{
+  color: #888;
+}
+.camera-section{
+  background-color: #e2e2e2 ;
+  height: 100%;
+}
+.section2 img{
+  display: flex;
+  align-items: center;
+  height: 100px;
+  margin: 0;
+  padding-left: 26rem;
+  padding-top: 10rem;
+}
+.section2 h1 {
+  color: #1177af;
+  text-align: center;
+}
+.section2 p {
+  text-align: center;
+}
+

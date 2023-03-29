@@ -1,0 +1,123 @@
+.parent3 {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.logo {
+  height: 150px;
+  padding: 5px 5px;
+  margin-right: 0.7rem;
+}
+.background-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 3px gray solid;
+  padding: 10px 3px 10px 3px;
+  margin-bottom: 80px;
+}
+.background-logo-hover {
+  box-shadow: orange;
+  border-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 10px 3px 10px 3px;
+  margin-bottom: 80px;
+}
+.section1 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+.section1 button:hover {
+  border-color: #646cff;
+  color: #646cff;
+}
+.section2 {
+  width: 50%;
+}
+.section3 {
+  width: 22%;
+  padding: 0px 25px;
+}
+.section3 h1 {
+  color: #1177af;
+  font-size: medium;
+  border-bottom: 2px dashed #888;
+  padding-bottom: 1rem;
+}
+.section3 p {
+  color: #888;
+}
+.camera-section {
+  background-color: #e2e2e2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.section2 img {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  margin: 0;
+}
+.section2 h1 {
+  color: #1177af;
+  text-align: center;
+}
+.section2 p {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.timein {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 16.5rem;
+}
+.timein-success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.time-button {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid rgb(211, 210, 210);
+  color: rgb(211, 210, 210);
+}
+.time-button-clicked {
+  border: 2px solid #646cff;
+  color: #646cff;
+  padding: 10px;
+  background-color: white;
+}
+.video-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-section video {
+  height: 100%;
+  width: 100%;
+  margin-top: 1rem;
+}

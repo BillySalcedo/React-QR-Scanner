@@ -1,0 +1,43 @@
+.date {
+  margin: 0;
+  padding-top: 30px;
+}
+.time {
+  font-size: 50px;
+  margin-top: -7%;
+  margin-bottom: 1rem;
+}
+.office {
+  font-size: 30px;
+  margin: 0;
+  color: #1177af;
+}
+.child2 {
+  display: flex;
+  color: black;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 11rem;
+}
+.button-leave {
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  padding-left: 40px;
+  background: linear-gradient(to right, rgb(245, 163, 73), rgb(244, 95, 127));
+  font-size: large;
+  display: flex;
+  align-self: flex-end;
+}
+.button-leave:hover{
+  box-shadow: 8px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.button-div{
+  display: flex;
+}
+.parent2{
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+}
